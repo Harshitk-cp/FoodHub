@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorLayout"
+    tools:context=".activity.SplashActivity">
+
+
+    <ImageView
+        android:id="@+id/imgAppIcon"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:padding="5dp"
+        android:src="@drawable/foodhub_icon"
+        android:contentDescription="@string/applogo" />
+
+
+
+    <TextView
+        android:id="@+id/txtFoodZest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgAppIcon"
+        android:text="@string/food_hub"
+        android:gravity="center_horizontal"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        />
+
+</RelativeLayout>
